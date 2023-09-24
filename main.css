@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 450px;
+        height: 800px;
+        /* border: 1px solid #00f; */
+        position: relative;
+        margin: 50px auto;
+}
+.container img{
+    width: 100%;
+    height: 20%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.container .one{
+    width: 100%;
+    height: 20%;
+    background-color: orangered;
+    opacity: 0.51;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.container .three{
+    width: 45%;
+        height: 15%;
+        border: 1px solid orangered;
+        position: absolute;
+        left: 50%;
+        top: 25%;
+        padding: 5px;
+        color: #777;
+        overflow: hidden;
+}
+.four{
+    width: 39%;
+        height: 35%;
+        position: absolute;
+        left: 5%;
+        top: 12%;
+        background-color: #122333;
+}
+.four h2{
+    text-transform: capitalize;
+        width: 80%;
+        height: 40%;
+        color: #fff;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        position: absolute;
+        left: 40%;
+        transform: translatex(-35%);
+    }
+.four h2::after{
+content: "";
+    width: 20px;
+    height: 2px;
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    top: 85%;
+}
+.four .main{
+    width: 90%;
+        height: 40%;
+        position: absolute;
+        left: 8%;
+        top: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* border: 1px solid #f00; */
+        padding: 5px;
+}
+.four .main>div{
+    width: 100%;
+    height: calc(90% / 3);
+    color: #fff;
+}
+.green{
+    color: greenyellow;
+}
+.four .button{
+width: 60%;
+    height: 11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    color: #fff;
+    position: absolute;
+    left: 11%;
+    top: 84%;
+    border-radius: 5px;
+}
+.five{
+    width: 100%;
+        height: 30%;
+        position: absolute;
+        left: 0;
+        top: 50%;
+      /*   border: 1px solid #000; */
+        display: flex;
+        justify-content: space-between;
+}
+.five>div{
+    width: calc(90% /3);
+    height: 100%;
+    background-color: #f2f8fa;
+}
+.five .first .number{
+    color: orangered;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.five .first .head{
+    width: 0%;
+        text-transform: uppercase;
+        color: #122333;
+        position: absolute;
+        left: 2%;
+        top: 25%;
+        font-weight: bold;
+}
+.five .first .text{
+width: 0%;
+    text-transform: uppercase;
+    color: #ddd;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}
+.five .first .learn{
+    color: orangered;
+    position: absolute;
+    left: 5%;
+    top: 85%;
+}
+.five .second .number{
+    color: orangered;
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.five .second .head{
+    width: 0%;
+        text-transform: uppercase;
+        color: #122333;
+        position: absolute;
+        left: 37%;
+        top: 25%;
+        font-weight: bold;
+}
+.five .second .text{
+width: 0%;
+    text-transform: uppercase;
+    color: #ddd;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+.five .second .learn{
+    color: orangered;
+    position: absolute;
+    left: 40%;
+    top: 85%;
+}
+.five .third .number{
+    color: orangered;
+    position: absolute;
+    left: 75%;
+    top: 5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.five .third .head{
+    width: 0%;
+        text-transform: uppercase;
+        color: #122333;
+        position: absolute;
+        left: 72%;
+        top: 25%;
+        font-weight: bold;
+}
+.five .third .text{
+width: 0%;
+    text-transform: uppercase;
+    color: #ddd;
+    position: absolute;
+    left: 75%;
+    top: 50%;
+}
+.five .third .learn{
+    color: orangered;
+    position: absolute;
+    left: 75%;
+    top: 85%;
+}
+.container .six{
+    width: 100%;
+        height: 23%;
+        /* border: 1px solid orange; */
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        top: 85%;
+}
+.container .six > img{
+    width: 100%;
+    height: 100%;
+}
+.container .six::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #122333;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.75;
+}
+.container .seven{
+    position: absolute;
+        color: #fff;
+        position: absolute;
+        left: 10%;
+        top: 87%;
+        font-weight: bold;
+}
+.container .seven::after{
+    content: "";
+        width: 80%;
+        height: 3px;
+        position: absolute;
+        left: 0;
+        top: 120%;
+        background-image: linear-gradient(to right, orangered 50%, #122333 50%);
+}
+.container .eight{
+    width: 44%;
+        height: 15%;
+        position: absolute;
+        left: 10%;
+        top: 93%;
+        color: #fff;
+}
+.container .nine{
+    width: 20%;
+        height: 4%;
+        justify-content: center;
+        align-items: center;
+        background-color: orangered;
+        color: #fff;
+        position: absolute;
+        left: 10%;
+        top: 103%;
+        border-radius: 5px;
+        text-transform: capitalize;
+        display: flex;
+}
+.container .ten{
+    width: 45%;
+        height: 20%;
+        /* border: 1px solid #122221; */
+        position: absolute;
+        left: 55%;
+        top: 87%;
+}
+.container .ten >img{
+    width: 100%;
+    height: 100%;
+}
